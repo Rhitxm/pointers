@@ -27,3 +27,13 @@ printf("x+%d\n", x); //gives output x=6
 printf("ptr=%d\n", *ptr); //gives output *ptr=6
 return 0;
 }
+// print the value of'i' from it's pointer to pointer
+#include <stdio.h>
+int main(){
+int i=5;
+    int *ptr=&i;
+    int **pptr=&ptr;
+
+    printf("%d\n", **pptr); // gives 5 as output
+return 0;
+}
