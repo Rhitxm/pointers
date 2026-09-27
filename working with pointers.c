@@ -37,3 +37,16 @@ int i=5;
     printf("%d\n", **pptr); // gives 5 as output
 return 0;
 }
+// print square of a number
+#include <stdio.h>
+void square(int n);
+int main(){
+int number=4;
+square (number);
+    printf ("number=%d\n", number);
+return 0;
+}
+void square (int n){
+n=n*n;
+printf("square=%d\n", n);
+}
