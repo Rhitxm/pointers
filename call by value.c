@@ -13,3 +13,5 @@ void square(int n){
     n=n*n;
     printf("sqaure=%d\n", n);
 }
+//swap 2 numbers a and b
+// 1) using call by value
