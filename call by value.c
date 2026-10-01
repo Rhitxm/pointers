@@ -31,3 +31,6 @@ void swap(int a, int b){
     printf("a=%d & b=%d\n", a, b);
 }
 //we see that values of x and y remain the same
+
+
+//using call by reference
