@@ -1,3 +1,5 @@
+//taking input of two numbers from the user and denoting the greater number
+
 #include <stdio.h>
 void maximum(int a, int b);
 
