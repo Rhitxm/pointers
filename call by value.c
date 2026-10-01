@@ -50,3 +50,4 @@ void _swap(int *a, int *b){
     *b=t;
 }
 //using call by reference we have successfully changed the value of x and y
+//call by reference is used when we want multiple functions to return value
